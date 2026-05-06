@@ -28,7 +28,7 @@ async function uploadCSV() {
     try {
 
         const response = await fetch(
-            "http://127.0.0.1:5000/api/upload",
+            "https://csv-filter-platform.onrender.com/api/upload",
             {
                 method: "POST",
                 body: formData
@@ -255,7 +255,7 @@ document
         try {
     
             const response = await fetch(
-                "http://127.0.0.1:5000/api/filter",
+                "https://csv-filter-platform.onrender.com/api/filter",
                 {
                     method: "POST",
     
@@ -336,7 +336,7 @@ async function previewSelectedColumns() {
     try {
 
         const response = await fetch(
-            "http://127.0.0.1:5000/api/select-columns",
+            "https://csv-filter-platform.onrender.com/api/select-columns",
             {
                 method: "POST",
 
@@ -389,7 +389,7 @@ async function downloadCSV() {
     try {
 
         const response = await fetch(
-            "http://127.0.0.1:5000/api/download",
+            "https://csv-filter-platform.onrender.com/api/download",
             {
                 method: "POST",
 
