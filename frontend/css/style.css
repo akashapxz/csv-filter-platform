@@ -1,0 +1,192 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background: #0f172a;
+    color: white;
+    min-height: 100vh;
+    padding: 30px;
+}
+
+.container {
+    max-width: 1200px;
+    margin: auto;
+}
+
+header {
+    text-align: center;
+    margin-bottom: 40px;
+}
+
+header h1 {
+    font-size: 42px;
+    margin-bottom: 10px;
+}
+
+header p {
+    color: #94a3b8;
+}
+
+.upload-section {
+    background: #1e293b;
+    padding: 30px;
+    border-radius: 16px;
+    margin-bottom: 30px;
+}
+
+.upload-box {
+    border: 2px dashed #38bdf8;
+    padding: 50px;
+    text-align: center;
+    border-radius: 12px;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+.upload-box:hover {
+    background: #0f172a;
+}
+
+#uploadBtn {
+    margin-top: 20px;
+    width: 100%;
+    padding: 15px;
+    border: none;
+    border-radius: 10px;
+    background: #38bdf8;
+    color: black;
+    font-weight: bold;
+    cursor: pointer;
+    font-size: 16px;
+}
+
+.info-section {
+    display: flex;
+    gap: 20px;
+    margin-bottom: 30px;
+}
+
+.info-card {
+    flex: 1;
+    background: #1e293b;
+    padding: 20px;
+    border-radius: 12px;
+}
+
+.columns-section,
+.table-section,
+.search-section {
+    background: #1e293b;
+    padding: 25px;
+    border-radius: 16px;
+    margin-bottom: 30px;
+}
+
+#columnsContainer {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+    margin-top: 20px;
+}
+
+.column-chip {
+    background: #38bdf8;
+    color: black;
+    padding: 10px 15px;
+    border-radius: 20px;
+    font-weight: bold;
+}
+
+#searchInput {
+    width: 100%;
+    padding: 15px;
+    border-radius: 10px;
+    border: none;
+    outline: none;
+}
+
+.table-container {
+    overflow-x: auto;
+    margin-top: 20px;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+th,
+td {
+    padding: 15px;
+    border-bottom: 1px solid #334155;
+    text-align: left;
+}
+
+th {
+    background: #334155;
+}
+
+.filter-section,
+.download-section {
+    background: #1e293b;
+    padding: 25px;
+    border-radius: 16px;
+    margin-bottom: 30px;
+}
+
+.filter-controls {
+    display: flex;
+    gap: 15px;
+    margin-top: 20px;
+    flex-wrap: wrap;
+}
+
+.filter-controls select,
+.filter-controls input {
+    flex: 1;
+    padding: 15px;
+    border-radius: 10px;
+    border: none;
+}
+
+.filter-controls button,
+#downloadBtn {
+    padding: 15px 25px;
+    border: none;
+    border-radius: 10px;
+    background: #38bdf8;
+    color: black;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+#applyColumnsBtn {
+    margin-top: 20px;
+    padding: 15px 20px;
+    border: none;
+    border-radius: 10px;
+    background: #38bdf8;
+    color: black;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+.filter-buttons {
+    margin-top: 20px;
+    display: flex;
+    gap: 15px;
+}
+
+.filter-buttons button {
+    padding: 15px 25px;
+    border: none;
+    border-radius: 10px;
+    background: #38bdf8;
+    color: black;
+    font-weight: bold;
+    cursor: pointer;
+}
