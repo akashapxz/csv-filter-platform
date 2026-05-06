@@ -12,3 +12,7 @@ SQLALCHEMY_TRACK_MODIFICATIONS = False
 
 ALLOWED_EXTENSIONS = {"csv"}
 MAX_CONTENT_LENGTH = 16 * 1024 * 1024
+# Create folders automatically
+os.makedirs(UPLOAD_FOLDER, exist_ok=True)
+os.makedirs(FILTERED_FOLDER, exist_ok=True)
+os.makedirs(os.path.dirname(DATABASE_PATH), exist_ok=True)
