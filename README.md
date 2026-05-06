@@ -9,11 +9,11 @@ This application allows users to upload CSV files, dynamically preview data, app
 
 ## Frontend
 
-https://your-netlify-url.netlify.app
+https://csv-filter-platform.netlify.app/
 
 ## Backend API
 
-https://your-render-url.onrender.com
+https://csv-filter-platform.onrender.com
 
 ---
 
@@ -153,7 +153,7 @@ csv-filter-platform/
 ## 1. Clone Repository
 
 ```bash
-git clone https://github.com/yourusername/csv-filter-platform.git
+https://github.com/akashapxz/csv-filter-platform
 ```
 
 ---
